@@ -3,7 +3,7 @@ function CalculateGST(price){
 }
 document.getElementById("btn").addEventListener("click", 
     function() {
-        var price = document .getElementById("price").value;
+        var price = document .getElementById("price").valuec;
         let gst = CalculateGST(price);
         document.getElementById("result").innerText = "Total Price: " + (Number(price) + Number(gst));
     });
